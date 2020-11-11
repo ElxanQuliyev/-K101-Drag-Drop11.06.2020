@@ -1,0 +1,41 @@
+#dragArea {
+  padding: 40px;
+  border: 1px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: inset 0 0 20px 0 #505050;
+}
+
+.drag-item {
+  width: 14.5%;
+  height: 80px;
+  margin: 10px;
+  border: 1px solid blue;
+  text-align: center;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+#dropArea {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  border: 1px solid blue;
+}
+
+#dropArea .drop-item {
+  width: 31%;
+  margin: 10px;
+  min-height: 150px;
+  border: 1px solid green;
+  position: relative;
+}
+
+#dropArea .drop-item span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
